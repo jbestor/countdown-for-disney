@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Countdown for Disney",
+    "slug": "countdown-for-disney",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bit3computing.countdownfordisney",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.bit3computing.countdownfordisney",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./app/assets/notification-icon.png",
+          "color": "#1a1a2e"
+        }
+      ],
+      "expo-image-picker"
+    ],
+    "scheme": "countdownfordisney",
+    "extra": {
+      "eas": {
+        "projectId": "countdown-for-disney"
+      }
+    }
+  }
+}

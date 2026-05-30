@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "news": [
+    {
+      "id": "1",
+      "title": "Welcome to Countdown for Disney!",
+      "summary": "Set your trip date to start your countdown. Check back for the latest Disney news and tips!",
+      "date": "2024-01-01",
+      "url": "https://www.mainstreetwishes.com"
+    }
+  ],
+  "feedUrl": "https://www.mainstreetwishes.com/archives/category/news/feed"
+}

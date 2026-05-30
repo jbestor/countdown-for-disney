@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "notifications": [
+    { "name": "AirlineTickets", "day": 330, "content": "Many Airlines have scheduled flights for your trip! You will be alerted again when we recommend you purchase tickets." },
+    { "name": "BookTickets", "day": 80, "content": "We recommend you purchase Airline Tickets within the next 10 days!" },
+    { "name": "DiningRes", "day": 180, "content": "You can start making dining reservations!" },
+    { "name": "FastPass", "day": 60, "content": "You can start selecting your Lightning Lane passes!" },
+    { "name": "CheckIn", "day": 60, "content": "You can begin your online check-in!" },
+    { "name": "MagicBand", "day": 36, "content": "Don't forget to customize your MagicBands!" },
+    { "name": "MagicBandWeek", "day": 39, "content": "One week left to customize your MagicBands!" },
+    { "name": "MagicBandDay", "day": 32, "content": "Last day to customize your MagicBands!" },
+    { "name": "OneWeek", "day": 7, "content": "Your Disney vacation starts in one week!" },
+    { "name": "Tomorrow", "day": 1, "content": "Your Disney vacation starts tomorrow! Have a magical trip!" }
+  ]
+}

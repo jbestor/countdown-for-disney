@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "title": "Planning Tips",
+      "icon": "planning",
+      "tips": [
+        "Buying Disney gift cards before your trip is a good way to save spending money for the trip!",
+        "Take advantage of the ability to make Lightning Lane reservations before your trip.",
+        "Make sure to download the My Disney Experience app on your phone before you leave for Disney.",
+        "Try and look at maps before your trip — studying the park layouts can help you feel confident when you arrive.",
+        "Unless you are going right in the middle of summer, bring at least one sweater. It can get cold in the Florida winter.",
+        "Bring pennies and quarters for pressed penny machines — a great cheap souvenir.",
+        "You can have things shipped to your resort room. A common choice is a pack of bottled water.",
+        "Make a wishlist of rides everyone wants to experience.",
+        "If you are traveling with kids, have them make a list of characters they want to meet.",
+        "Bring comfy shoes!"
+      ]
+    },
+    {
+      "title": "Activity Tips",
+      "icon": "activity",
+      "tips": [
+        "Don't forget to leave some time to relax. Give yourself time to explore your resort and take a dip in the pool.",
+        "Give yourself enough time to explore Disney Springs and the Boardwalk area.",
+        "The Boardwalk has nightly entertainment — jugglers, magicians, and fun boardwalk-style games.",
+        "Disney World has two miniature golf options: Fantasia Gardens and Winter Summerland.",
+        "There are two waterparks on property: Typhoon Lagoon and Blizzard Beach.",
+        "Stop by Ghirardelli at Disney Springs — you might get a free piece of chocolate.",
+        "Take in a show during your next trip! Check out entertainment options at the parks and resorts."
+      ]
+    },
+    {
+      "title": "Resort Tips",
+      "icon": "resort",
+      "tips": [
+        "Take a day to explore the Disney resort hotels — the themed details are incredible!",
+        "Don't forget about all the dining experiences at the resort hotels.",
+        "If you are staying at one of the Epcot Resorts there is a 'back door' entrance via the International Gateway.",
+        "Many of the resorts have programs that will watch your children if you'd like a date night.",
+        "Club level rooms give you access to a lounge with food and beverages throughout the day.",
+        "Get familiar with your resort layout before you travel — some are quite large.",
+        "Many of the Deluxe Resort villas have full kitchens and washers and dryers."
+      ]
+    },
+    {
+      "title": "Park Tips",
+      "icon": "parks",
+      "tips": [
+        "Arrive at the parks at rope drop for shorter wait times on popular attractions.",
+        "Take a midday break at your resort — the parks are less crowded in the early morning and evening.",
+        "Use the My Disney Experience app to monitor wait times in real time.",
+        "Many restaurants at Disney World require reservations — book as early as possible.",
+        "Refillable resort mugs can save you money on drinks throughout your stay.",
+        "Check park hours and special event schedules before your trip.",
+        "The Main Street Electrical Parade and fireworks are must-sees at Magic Kingdom."
+      ]
+    },
+    {
+      "title": "Dining Tips",
+      "icon": "dining",
+      "tips": [
+        "Dining reservations can be made 60 days in advance — set a reminder!",
+        "Character dining is a great way to meet multiple characters without waiting in line.",
+        "Be sure to mention any food allergies when making reservations and again with your server.",
+        "Disney restaurants are very accommodating for dietary restrictions.",
+        "Splitting entrees is common and accepted — portions can be very large.",
+        "Quick service dining is a great option for busy park days.",
+        "The food courts at Value Resorts offer surprisingly good options at reasonable prices."
+      ]
+    },
+    {
+      "title": "Transportation Tips",
+      "icon": "transportation",
+      "tips": [
+        "Disney's complimentary transportation includes buses, monorail, Skyliner, and boats.",
+        "The Skyliner gondola system connects Epcot-area resorts to Hollywood Studios and Epcot.",
+        "The monorail runs between Magic Kingdom, the Transportation and Ticket Center, and monorail resorts.",
+        "Factor in extra transportation time, especially during park opening and closing.",
+        "Uber and Lyft are allowed on Disney property if you prefer to travel independently.",
+        "Magical Express (now third-party Mears Connect) offers airport-to-resort transportation."
+      ]
+    }
+  ]
+}
