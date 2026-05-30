@@ -3,12 +3,14 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      // Transpile private class fields (#field) using WeakMaps (loose:false).
-      // react-native 0.81 ships source files with private fields that Expo Go
-      // Hermes cannot parse natively. WeakMap mode needs no @babel/runtime
-      // helpers, avoiding conflicts with Metro's inlineRequires transform.
-      ['@babel/plugin-transform-class-properties', { loose: false }],
-      ['@babel/plugin-transform-private-methods', { loose: false }],
+      // These three plugins must all use the same loose mode.
+      // babel-preset-expo includes @babel/plugin-transform-private-property-in-object
+      // with loose:true, so all three must be loose:true or Babel throws a config error
+      // and silently passes files through untransformed — leaving private fields (#field)
+      // that Hermes can parse but whose module-scope behavior causes ReferenceErrors.
+      ['@babel/plugin-transform-class-properties', { loose: true }],
+      ['@babel/plugin-transform-private-methods', { loose: true }],
+      ['@babel/plugin-transform-private-property-in-object', { loose: true }],
     ],
   };
 };
