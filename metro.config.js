@@ -1,16 +1,23 @@
 const { getDefaultConfig } = require('expo/metro-config');
+const path = require('path');
 
 const config = getDefaultConfig(__dirname);
 
-// Force transpilation of packages that use private class fields (#field syntax),
-// which older Hermes versions in Expo Go cannot parse natively.
-config.transformer.unstable_allowRequireContext = true;
+// Inject our polyfill as the very first pre-module so it runs BEFORE
+// react-native/Libraries/Core/InitializeCore.js (which calls
+// setUpDefaultReactNativeEnvironment → setUpPerformance → Performance.js,
+// which references DOMException before RN has registered it as a global).
+const originalGetModules = config.serializer.getModulesRunBeforeMainModule;
+config.serializer.getModulesRunBeforeMainModule = (entryFilePath) => {
+  const existing = typeof originalGetModules === 'function'
+    ? originalGetModules(entryFilePath)
+    : [];
+  return [
+    path.resolve(__dirname, 'polyfills.js'),
+    ...existing,
+  ];
+};
 
-const defaultBlockList = config.resolver.blockList ?? [];
-config.resolver.blockList = defaultBlockList;
-
-// Ensure node_modules that use modern JS syntax get transpiled through Babel.
-// Add package names (without node_modules/) as needed.
 config.transformer.getTransformOptions = async () => ({
   transform: {
     experimentalImportSupport: false,
