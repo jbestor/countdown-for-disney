@@ -2,7 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Switch, TouchableOpacity, Alert, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { StorageService } from '../services/StorageService';
-import { scheduleCountdownNotifications, cancelAllCountdownNotifications, requestPermissions } from '../services/NotificationService';
+import {
+  scheduleCountdownNotifications,
+  cancelAllCountdownNotifications,
+  requestPermissions,
+} from '../services/NotificationService';
 import { useApp } from '../components/AppContext';
 import bundledNotifications from '../data/notifications.json';
 
