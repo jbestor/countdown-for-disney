@@ -43,7 +43,8 @@
           "color": "#1a1a2e"
         }
       ],
-      "expo-image-picker"
+      "expo-image-picker",
+      "@react-native-community/datetimepicker"
     ],
     "scheme": "countdownfordisney",
     "extra": {
